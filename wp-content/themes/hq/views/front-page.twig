@@ -1,0 +1,20 @@
+{% extends 'base.twig' %}
+
+{% block conteudo %}
+
+<section>
+	<div class="container">
+		<div class="Row _gutters">
+		{% for item in hqs %}
+			<div class="box-hq col _col-4">
+				<a href="{{ item.link }}">			
+					<img class="icon _rounded" src="{{ Image(item.get_field('paginas').0.pagina).src  }}">
+					<h2>{{ item.title }}</h2>
+				</a>
+			</div>	
+		{% endfor %}
+		</div>	
+	</div>
+</section>
+
+{% endblock %}

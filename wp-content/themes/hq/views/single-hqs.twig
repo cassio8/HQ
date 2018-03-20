@@ -1,0 +1,24 @@
+{% extends 'base.twig' %}
+
+{% block conteudo %}
+
+<style>
+	.pagina {
+		width: 100%;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+</style>
+
+<section>
+	<div class="owl-carousel">
+		{% for item in post.get_field('paginas') %}
+
+			<div class="item pagina" style="background-image: url({{ Image(item.pagina).src }}); height: {{ Image(item.pagina).height }}px"></div>
+		
+		{% endfor %}
+	</div>
+</section>
+
+{% endblock %}

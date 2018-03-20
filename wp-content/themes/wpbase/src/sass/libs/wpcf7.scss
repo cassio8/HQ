@@ -1,0 +1,39 @@
+// Contact Form
+.wpcf7-form-control-wrap {
+    display: inline-block;
+    width: 100%;
+}
+
+.use-floating-validation-tip span.wpcf7-not-valid-tip {
+    top: -15px;
+    left: 0;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    font-size: 12px;
+}
+
+.wpcf7-not-valid {
+    border-color: $color-error;
+}
+
+div.wpcf7-response-output {
+    border: 0 !important;
+    padding: 30px 0 0;
+    margin: 0;
+    font-size: $font-size-small;
+}
+
+div.wpcf7-mail-sent-ok {
+     color: $color-success;
+}
+
+div.wpcf7-validation-errors,
+div.wpcf7-spam-blocked {
+    color: $color-warning;
+}
+
+div.wpcf7-mail-sent-ng,
+span.wpcf7-not-valid-tip {
+    color: $color-error;
+}
