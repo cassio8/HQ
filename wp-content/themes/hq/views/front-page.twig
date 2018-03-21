@@ -4,12 +4,13 @@
 
 <section>
 	<div class="container">
-		<div class="Row _gutters">
+		<div class="Row Lista-hqs _gutters">
 		{% for item in hqs %}
-			<div class="box-hq col _col-4">
-				<a href="{{ item.link }}">			
-					<img class="icon _rounded" src="{{ Image(item.get_field('paginas').0.pagina).src  }}">
-					<h2>{{ item.title }}</h2>
+			<div class="box-hq col _col-3">
+				<a class="hover" href="{{ item.link }}">				
+					<img class="thumb _rounded" src="{{ Image(item.get_field('paginas').0.pagina).src  }}">
+					<h4 class="titulo">{{ item.title }}</h4>
+					<button class="Button">Ler</button>
 				</a>
 			</div>	
 		{% endfor %}

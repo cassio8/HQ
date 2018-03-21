@@ -7,51 +7,27 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "d870630ff8f81e6de3958ecaeac532f2",
-      "css": "left",
+      "uid": "4815ddddea76d90e367a9694a93b7e24",
+      "css": "resize-full",
       "code": 59392,
-      "src": "fontawesome"
+      "src": "iconic"
     },
     {
-      "uid": "399ef63b1e23ab1b761dfbb5591fa4da",
-      "css": "right",
+      "uid": "b05c5a209b56e7ea6632a31e4bd0b41d",
+      "css": "resize-small",
       "code": 59393,
-      "src": "fontawesome"
+      "src": "iconic"
     },
     {
-      "uid": "fe6697b391355dec12f3d86d6d490397",
-      "css": "up",
+      "uid": "0b2b66e526028a6972d51a6f10281b4b",
+      "css": "zoom-in",
       "code": 59394,
       "src": "fontawesome"
     },
     {
-      "uid": "ccddff8e8670dcd130e3cb55fdfc2fd0",
-      "css": "down",
+      "uid": "d25d10efa900f529ad1d275657cfd30e",
+      "css": "zoom-out",
       "code": 59395,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "4743b088aa95d6f3b6b990e770d3b647",
-      "css": "facebook",
-      "code": 62216,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
-      "css": "instagram",
-      "code": 61805,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "906348dc798a0d42715cc97c875e3ac6",
-      "css": "twitter",
-      "code": 62212,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "e331ff486a299c6bdf0056426c8fac53",
-      "css": "youtube",
-      "code": 61798,
       "src": "fontawesome"
     }
   ]

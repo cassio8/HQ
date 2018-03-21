@@ -3,11 +3,97 @@
 /******************************************/
 
 .container {
-  position: relative;
-  margin: 0 auto;
-  width: 1170px;
+    position: relative;
+    margin: 0 auto;
+    width: 1170px;
 }
 
-.icon {
-  width: 40%;
+a {
+    text-decoration: none;
+}
+
+/********************************************/
+/******************BUTTON********************/
+/********************************************/
+
+.Button {
+    width: 110px;
+    background-color: #4c9df1;
+    text-transform: uppercase;
+}
+
+.Button:hover {
+    color: #4c9df1;
+    background-color: #fff;
+    border: 2px solid #4c9df1;
+}
+
+.mask {
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    z-index: 10;
+}
+
+.menu {
+    position: absolute;
+    top: 10%;
+    right: 6%;
+    z-index: 20;
+}
+
+.mask:hover {
+    background-color: #4c4c4c3b;
+}
+
+.mask:hover ._button-opcoes {
+    display: inline-block;
+}
+
+._button-opcoes {
+    display: none;
+    padding: 0;
+    width: 40px;
+    background-color: #3c3c3c73;
+    font-size: 18px;
+    z-index: 15;
+}
+
+._button-opcoes:hover {
+    background-color: #3c3c3c4f;
+    color: #fff;
+    border: none;
+}
+
+
+/********************************************/
+/******************LISTA HQS********************/
+/********************************************/
+
+.Lista-hqs {
+    text-align: center;
+}
+
+.box-hq {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #4c9df1;
+}
+
+.hover:hover .Button {
+    color: #4c9df1;
+    background-color: #fff;
+    border: 2px solid #4c9df1;
+}
+
+.thumb {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.titulo {
+    margin: 20px 0;
+    height: 60px;
+    color: #4c9df1;
+    text-decoration: none;
 }
