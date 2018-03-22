@@ -1,6 +1,12 @@
 /******************************************/
-/******************BASE********************/
+/******************GERAL********************/
 /******************************************/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body, p, h1, h2, h3, 
+h4, h5, h6, span, a, .Button {
+    font-family: 'Lato', sans-serif;
+}
 
 .container {
     position: relative;
@@ -13,13 +19,62 @@ a {
 }
 
 /********************************************/
+/******************HEADER********************/
+/********************************************/
+
+.Header {
+    background-color: #4c9df1;
+}
+
+.Header .nav {
+    text-align: center;
+}
+
+.Header .nav ul li {
+    display: inline-block;
+    padding: 18px 10px;
+}
+
+.Header .nav ul li a{
+    color: #fff;
+    font-weight: 700;
+}
+
+.Header .nav ul li a:hover {
+    color: #ffffffbf;
+}
+
+/********************************************/
+/******************TITLE*********************/
+/********************************************/
+
+.Title {
+    position: relative;
+    margin: 70px 0;
+    color: #4c9df1;
+    text-align: center;
+}
+
+.Title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    height: 2px;
+    background-color: #4c9df1;
+}
+
+/********************************************/
 /******************BUTTON********************/
 /********************************************/
 
 .Button {
     width: 110px;
     background-color: #4c9df1;
-    text-transform: uppercase;
+    font-size: 17px;
 }
 
 .Button:hover {
@@ -29,7 +84,7 @@ a {
 }
 
 .mask {
-    position: absolute;
+    position: fixed;
     height: 50px;
     width: 100%;
     z-index: 10;
@@ -65,9 +120,41 @@ a {
     border: none;
 }
 
+/********************************************/
+/******************BOX NOVIDADE**************/
+/********************************************/
+
+.box-novidade {
+    display: block;
+    text-align: center;
+}
+
+.box-novidade .thumb-novidade {
+    display: inline-block !important;
+    width: 20% !important;
+}
+
+
+.Novidades .owl-nav .owl-prev {
+    position: absolute;
+    left: 25%;
+    bottom: 140px;
+    color: #4c9df1;
+    font-size: 70px;
+    z-index: 10;
+}
+
+.Novidades .owl-nav .owl-next {
+    position: absolute;
+    right: 25%;
+    bottom: 140px;
+    color: #4c9df1;
+    font-size: 70px;
+    z-index: 10;
+}
 
 /********************************************/
-/******************LISTA HQS********************/
+/******************LISTA HQS*****************/
 /********************************************/
 
 .Lista-hqs {
@@ -88,7 +175,7 @@ a {
 
 .thumb {
     margin: 0 auto;
-    width: 40%;
+    width: 50%;
 }
 
 .titulo {

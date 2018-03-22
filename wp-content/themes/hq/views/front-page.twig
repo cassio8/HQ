@@ -2,8 +2,34 @@
 
 {% block conteudo %}
 
+<header class="Header">
+	<div class="container">
+		<nav class="nav">
+			<ul class="_unstyled">
+				<li><a href="{{ site.url }}/home">Home</a></li>
+				<li><a href="{{ site.url }}/home">Sobre</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
 <section>
 	<div class="container">
+
+		<h2 class="Title">Novos HQs</h2>
+		<div class="Novidades owl-carousel">
+			{% for key, item in hqs %}
+			 	{% if key < 3 %} {# mostra so os ultimos hqs #}
+					<div class="box-novidade col _col-3">
+						<a href="{{ item.link }}">				
+							<img class="thumb-novidade _rounded" src="{{ Image(item.get_field('paginas').0.pagina).src  }}">
+						</a>
+					</div>	
+				{% endif %}
+			{% endfor %}
+		</div>
+
+		<h2 class="Title">Lista de HQs</h2>		
 		<div class="Row Lista-hqs _gutters">
 		{% for item in hqs %}
 			<div class="box-hq col _col-3">

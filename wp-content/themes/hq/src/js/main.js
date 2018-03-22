@@ -75,6 +75,12 @@ $(function() {
         offset: 300
     }).init();
 
+    // owl carousel
+    var owl = $('.Novidades.owl-carousel').owlCarousel({
+        items           : 1,
+        nav             : true,
+        navText         : ['<i class="icon-left-open-mini"></i>','<i class="icon-right-open-mini"></i>'],
+    });
 
     // owl carousel
     var owl = $('.owl-carousel').owlCarousel({

@@ -29,18 +29,6 @@
       "css": "zoom-out",
       "code": 59395,
       "src": "fontawesome"
-    },
-    {
-      "uid": "592717bd601645d61517d2a584d04127",
-      "css": "left-open-mini",
-      "code": 59396,
-      "src": "entypo"
-    },
-    {
-      "uid": "37f6cfbb4062ed0d01b351ec35c334ff",
-      "css": "right-open-mini",
-      "code": 59397,
-      "src": "entypo"
     }
   ]
 }
