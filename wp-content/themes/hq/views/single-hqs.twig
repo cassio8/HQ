@@ -19,7 +19,7 @@
 			<a class="Button _button-opcoes"><i class="icon-zoom-out"></i></a>
 		</div>
 	</div>
-	<div class="owl-carousel">
+	<div class="Leitor owl-carousel">
 		{% for item in post.get_field('paginas') %}
 
 			<div class="item pagina" style="background-image: url({{ Image(item.pagina).src }}); height: {{ Image(item.pagina).height }}px"></div>
