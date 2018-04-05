@@ -2,12 +2,12 @@
 
 {% block conteudo %}
 
-<style>
+<style type="text/css">
 	.pagina {
 		width: 100%;
 		background-size: contain;
-		background-position: center;
 		background-repeat: no-repeat;
+		background-position: center;
 	}
 </style>
 
@@ -23,7 +23,12 @@
 		{% for item in post.get_field('paginas') %}
 
 			<div class="item pagina" style="background-image: url({{ Image(item.pagina).src }}); height: {{ Image(item.pagina).height }}px"></div>
-		
+
+			{#<div class="easyzoom easyzoom--overlay">
+				<a href="{{ Image(item.pagina).src }}">
+					<img class="item pagina" src="{{ Image(item.pagina).src }}">
+				</a>
+			</div>#}
 		{% endfor %}
 	</div>
 </section>

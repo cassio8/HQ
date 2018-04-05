@@ -225,3 +225,15 @@ a {
     color: #4c9df1;
     text-decoration: none;
 }
+
+/********************************************/
+/******************HQS***********************/
+/********************************************/
+/*.pagina {
+    margin: 0 auto;
+    width: auto !important;
+}*/
+
+.easyzoom {
+    display: block;
+}

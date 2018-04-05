@@ -70,6 +70,9 @@ $(function() {
         $('body').addClass('loaded');
     });
 
+    // Instantiate EasyZoom instances
+    var $easyzoom = $('.easyzoom').easyZoom();
+
     // wow
     new WOW({
         offset: 300
@@ -78,6 +81,7 @@ $(function() {
     // owl carousel
     $('.Novidades.owl-carousel').owlCarousel({
         items           : 1,
+        loop            : true,
         nav             : true,
         navText         : ['<i class="icon-left-open-mini"></i>','<i class="icon-right-open-mini"></i>'],
     });
