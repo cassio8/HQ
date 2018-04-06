@@ -20,15 +20,8 @@
 		</div>
 	</div>
 	<div class="Leitor owl-carousel">
-		{% for item in post.get_field('paginas') %}
-
-			<div class="item pagina" style="background-image: url({{ Image(item.pagina).src }}); height: {{ Image(item.pagina).height }}px"></div>
-
-			{#<div class="easyzoom easyzoom--overlay">
-				<a href="{{ Image(item.pagina).src }}">
-					<img class="item pagina" src="{{ Image(item.pagina).src }}">
-				</a>
-			</div>#}
+		{% for item in context %}
+			<div class="item pagina" style="background-image: url({{ Image(item.id).src }}); height: {{ Image(item.id).height }}px"></div>
 		{% endfor %}
 	</div>
 </section>
