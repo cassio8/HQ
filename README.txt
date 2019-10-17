@@ -9,4 +9,5 @@ Timber
 Twig template
 
 
-N„o esqueÁa de configurar o BANCO local, chame de db_hq e use o arquivo sql que est· na pasta temp chamado db_hq
+
+N√£o esque√ßa de configurar o BANCO local, chame de db_hq e use o arquivo sql que est√° na pasta temp chamado db_hq
